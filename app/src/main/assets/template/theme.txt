@@ -1,0 +1,418 @@
+
+#  ▄███████████████                   ▄▄▄████████▒░      ▄▄▄
+# ████████████████████▒░      ██████████████████▒░   ▄█████████▄
+# ░▒▒▒▒▒█████▒▒▒▒▒███▒░        ▒███████████▒▒▒▒▒░  ▄█████████████▄
+#      █████████░░▒▒▒░███░   ███▒░▒▒▒▒█████▒░░░░  ██████▀   ▀██████░
+#     ████████▒▒░ ░░░ ███▒░  ███▒ ░░░░█████▒░    ██████       ██████▒
+#    ▄███▒▒▒▒▒░░     ███▒░  ███▒░     █████▒░    ░██████▄   ▄██████▒░
+#    ███▒░░░░░      ▐████▄▄███▒░      ░█████▒░    ░▒█████████████▒▒░
+#    ██▒░            ▐███████▒░        ░▒██▒░      ░░▒█████████▒▒░
+#    ░▒░              ▒▒▒▒▒▒▒░          ░▒▒░         ░░▒▒▒▒▒▒▒░░░
+#     ░               ░░░░░░░            ░░            ░░░░░░░
+#          ▄██████▄░ ▄██████▄░ ▄██████▄░ ▄██████▄░ ▄██████▄░
+#          ████████▒░████████▒░████████▒░████████▒░████████▒░
+#          ▀██████▀░ ▀██████▀░ ▀██████▀░ ▀██████▀░ ▀██████▀░
+#           ░▒▒▒▒▒░   ░▒▒▒▒▒░   ░▒▒▒▒▒░   ░▒▒▒▒▒░   ░▒▒▒▒▒░
+#          ▄██████▄░ ▄██████▄░ ▄██████▄░ ▄██████▄░ ▄██████▄░
+#          ████████▒░████████▒░████████▒░████████▒░████████▒░
+#          ▀██████▀░ ▀██████▀░ ▀██████▀░ ▀██████▀░ ▀██████▀░
+#           ░▒▒▒▒▒░   ░▒▒▒▒▒░   ░▒▒▒▒▒░   ░▒▒▒▒▒░   ░▒▒▒▒▒░
+#            ░░░░░  ▄█████████████████████████████▄░ ░░░░░
+#                   ███████████████████████████████▒░
+#                   ▀█████████████████████████████▀░
+#                    ░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░
+#                     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+#
+#                  FUTO Keyboard Theme Configuration
+#                        Format version: 1.0
+#
+# Although there are comments to help you, please check our guide for
+# more information. It can be found at:
+#                      https://docs.keyboard.futo.tech/theme/advanced
+#
+# If blindly editing configuration files isn't your thing, there is a
+# much easier way which is our theme editor web app. You can see live
+# realtime previews of the keyboard with different sizes or languages
+# as well as an easy editing interface. Try it out at:
+#                             https://keyboard.futo.tech/theme-editor
+#
+# Have fun theming!
+# -------------------------------------------------------------------
+
+name = "Aurora Glass"
+author = "Studio Aurora"
+id = "studio.aurora.glasskeys"
+version = 2
+description = "Aurora Glass: luminous midnight teal and violet glass keys over a custom aurora-night background. Includes original custom key borders and FUTO-compatible theme configuration."
+
+[options]
+auto_borders = true
+center_hints = false
+roundedness = 1
+scale_text = 1.2
+scale_hints = 0.9
+weight_text = 400
+weight_hints = 400
+
+# -------------------------------------------------------------------
+# There are many colors here, so it'll likely be difficult for you to
+# edit them by hand. We would recommend you to use a Material 3 color
+# generator or our theme editor linked above. Color format: #RRGGBBAA
+# If you change a color, remove its "# inherited" comment if present.
+# -------------------------------------------------------------------
+
+[colors]
+primary = "#62ead8"
+on_primary = "#062d39"
+primary_container = "#124b5d"
+on_primary_container = "#b7fff4"
+inverse_primary = "#006b68"
+
+secondary = "#b7a0ff"
+on_secondary = "#24134e"
+secondary_container = "#49377a"
+on_secondary_container = "#eee7ff"
+
+tertiary = "#7de5ff"
+on_tertiary = "#003641"
+tertiary_container = "#124e60"
+on_tertiary_container = "#c4f5ff"
+
+background = "#07132b"
+on_background = "#e6f7ff"
+
+surface = "#07132b"
+on_surface = "#e6f7ff"
+surface_variant = "#203550"
+on_surface_variant = "#c0d9e8"
+surface_tint = "#62ead8"
+inverse_surface = "#e6f7ff"
+inverse_on_surface = "#15253a"
+
+error = "#ffb4ab"
+on_error = "#690005"
+error_container = "#93000a"
+on_error_container = "#ffdad6"
+
+outline = "#7899adcc"
+outline_variant = "#45627766"
+scrim = "#000000"
+
+surface_bright = "#293e5a"
+surface_dim = "#07101f"
+surface_container = "#101f38"
+surface_container_high = "#172943"
+surface_container_highest = "#203550"
+surface_container_low = "#0c1a31"
+surface_container_lowest = "#050d1d"
+
+keyboard_surface = "#0b1932"
+keyboard_surface_dim = "#071329"
+keyboard_container = "#234b66"
+keyboard_container_variant = "#18384f"
+on_keyboard_container = "#e1fbff"
+keyboard_press = "#62ead8"
+keyboard_container_pressed = "#62ead854"
+on_keyboard_container_pressed = "#eaffff"
+
+[options.font]
+font = "Manosque-Regular.ttf"
+
+[options.background]
+image = "PetKeys-background.png"
+opacity = 1
+action_bar_opacity = 0.26
+cropping = [0.06, 0.06, 0.9, 0.9]
+
+# -------------------------------------------------------------------
+# Matchrules will apply a key border or icon to a group of keys based
+# on the selector.  They are order-dependent, only the first matching
+# rule will be applied.
+# -------------------------------------------------------------------
+
+[[matchrules.border]]
+selector = "pressed functional row 0 col 0"
+asset = "Button-default-press-dark.png"
+
+[[matchrules.border]]
+selector = "pressed label 3"
+asset = "Button-default-press.png"
+
+[[matchrules.border]]
+selector = "pressed col 3 row 0"
+asset = "Button-default-press-dark.png"
+
+[[matchrules.border]]
+selector = "pressed col 1 row 2"
+asset = "Button-default-press.png"
+
+[[matchrules.border]]
+selector = "pressed col 0 row 0"
+asset = "Button-default-press.png"
+
+[[matchrules.border]]
+selector = "normal col 0 row 0"
+asset = "Button-alt2.png"
+
+[[matchrules.border]]
+selector = "normal pressed row 3 col 3"
+asset = "Button-default-press.png"
+
+[[matchrules.border]]
+selector = "normal col 3 row 3"
+asset = "Button-alt2.png"
+
+[[matchrules.border]]
+selector = "normal col 3 row 0"
+asset = "Button-alt1.png"
+
+[[matchrules.border]]
+selector = "normal col 1 row 2"
+asset = "Button-alt3.png"
+
+[[matchrules.border]]
+selector = "normal label b"
+asset = "Button-alt3.png"
+
+[[matchrules.border]]
+selector = "normal label o"
+asset = "Button-alt1.png"
+
+[[matchrules.border]]
+selector = "normal label f"
+asset = "Button-alt3.png"
+
+[[matchrules.border]]
+selector = "functional row 2 col 8 pressed"
+asset = "Button-function-pressed.png"
+
+[[matchrules.border]]
+selector = "functional row -1 col 0 pressed"
+asset = "Button-function2-pressed.png"
+
+[[matchrules.border]]
+selector = "functional pressed"
+asset = "Button-default-press-dark.png"
+
+[[matchrules.border]]
+selector = "functional row 2 col 8"
+asset = "Button-function.png"
+
+[[matchrules.border]]
+selector = "spacebar pressed"
+asset = "Button-space-press.png"
+
+[[matchrules.border]]
+selector = "spacebar"
+asset = "Button-space-dark.png"
+
+[[matchrules.border]]
+selector = "action pressed"
+asset = "Button-action-press.png"
+
+[[matchrules.border]]
+selector = "action"
+asset = "Button-action.png"
+
+[[matchrules.border]]
+selector = "functional row -1 col 0"
+asset = "Button-function2.png"
+
+[[matchrules.border]]
+selector = "functional popup"
+asset = "Button-default-press-dark.png"
+
+[[matchrules.border]]
+selector = "functional"
+asset = "Button-default-dark.png"
+
+[[matchrules.border]]
+selector = "normal popup"
+asset = "Button-default-press.png"
+
+[[matchrules.border]]
+selector = "pressed"
+asset = "Button-default-press.png"
+
+[[matchrules.border]]
+selector = "normal"
+asset = "Button-default.png"
+
+[[matchrules.icon]]
+selector = "icon delete_key"
+asset = "Icon-backspace.png"
+
+[[matchrules.icon]]
+selector = "icon action_emoji"
+asset = "Icon-emoji.png"
+
+[[matchrules.icon]]
+selector = "icon shift_key_shifted"
+asset = "Icon-shift-press.png"
+
+[[matchrules.icon]]
+selector = "icon shift_key"
+asset = "Icon-shift.png"
+
+[[matchrules.icon]]
+selector = "icon enter_key"
+asset = "Icon-enter.png"
+
+# -------------------------------------------------------------------
+# All image assets used above should have a corresponding config here
+# -------------------------------------------------------------------
+
+[[asset.border]]
+name = "Button-default-press-dark.png"
+background_tint = "#ffffff"
+foreground_tint = "#ffffff"
+padding = [0, 0, 0, 0]
+slicing = [0.265, 0.261, 0.746, 0.778]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-default-press.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0, 0, 0]
+slicing = [0.213, 0.358, 0.727, 0.647]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-alt2.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0.2, 0.2, 0]
+slicing = [0.465, 0.353, 0.577, 0.583]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-alt1.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0.2, 0.2, 0]
+slicing = [0.366, 0.363, 0.567, 0.599]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-alt3.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0, 0, 0]
+slicing = [0.484, 0.35, 0.527, 0.592]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-function-pressed.png"
+background_tint = "#ffffff"
+foreground_tint = "#ffffff"
+padding = [0, 0, 0, 0]
+slicing = [0.412, 0.265, 0.588, 0.614]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-function2-pressed.png"
+background_tint = "#ffffff"
+foreground_tint = "#ffffff"
+padding = [0, 0, 0, 0]
+slicing = [0.694, 0.243, 0.801, 0.506]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-function.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0, 0, 0]
+slicing = [0.412, 0.265, 0.588, 0.614]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-space-press.png"
+background_tint = "#ffffff"
+foreground_tint = "#000000"
+padding = [0, 0, 0, 0]
+slicing = [0.223, 0.264, 0.7, 0.623]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-space-dark.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0, 0, 0]
+slicing = [0.223, 0.264, 0.7, 0.623]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-action-press.png"
+background_tint = "#ffffff"
+foreground_tint = "#ffffff"
+padding = [0, 0, 0, 0]
+slicing = [0.32, 0.292, 0.677, 0.707]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-action.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [1, 1, 1, 1]
+slicing = [0.32, 0.292, 0.677, 0.707]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-function2.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0, 0, 0]
+slicing = [0.694, 0.243, 0.801, 0.506]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-default-dark.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0.2, 0.2, 0]
+slicing = [0.217, 0.266, 0.761, 0.78]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.border]]
+name = "Button-default.png"
+background_tint = "#ffffff"
+foreground_tint = "#414447"
+padding = [0, 0.2, 0.2, 0]
+slicing = [0.3, 0.3, 0.7, 0.7]
+gap = [1, 1, 1, 1]
+target_density = 640
+
+[[asset.icon]]
+name = "Icon-backspace.png"
+target_density = 640
+
+[[asset.icon]]
+name = "Icon-emoji.png"
+target_density = 640
+
+[[asset.icon]]
+name = "Icon-shift-press.png"
+target_density = 640
+
+[[asset.icon]]
+name = "Icon-shift.png"
+target_density = 640
+
+[[asset.icon]]
+name = "Icon-enter.png"
+target_density = 640
